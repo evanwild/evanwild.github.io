@@ -9,18 +9,16 @@
     <link rel="icon" type="image/png" href="favicon.png">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Inter:300,400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="aos.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="util.css">
-
 
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <style>
         body {
-            background: url(bg.svg) no-repeat center bottom fixed;
-            background-size: 100% 37%;
+            background: url(bg.svg) bottom/100% no-repeat fixed;
         }
 
         .title {
@@ -42,11 +40,11 @@
         <header class="mb3">
 
             <div class="title">
-                <h1>Evan Wild</h1>
-                <img width="100" height="100" src="profile.png">
+                <h1 class="bold">Evan Wild</h1>
+                <img width="100" src="profile.png">
             </div>
 
-            <h5 class="tc mb1">Programmer and high schooler at Nepean HS</h5>
+            <h5 class="normal tc mb1">Programmer and high schooler at Nepean HS</h5>
 
             <div class="tc">
                 <a class="github-button" href="https://github.com/evanwild" data-size="large"
@@ -58,7 +56,7 @@
 
         <div>
             <div class="row mt3">
-                <div class="5 col card tc b-accent">
+                <div class="5 col card tc b-accent bg-white">
                     <h4 class="mb1 normal accent">Contact</h4>
                     <p>I'll get back to you soon after I receive your message.</p>
                     <a href="mailto:evan@evanwild.com">
@@ -68,7 +66,7 @@
                         <button class="mt1 btn primary white bold">Linkedin</button>
                     </a>
                 </div>
-                <div class="5 col card tc b-accent">
+                <div class="5 col card tc b-accent bg-white">
                     <h4 class="mb1 normal accent">Competitive Programming</h4>
                     <p>I love solving problems using algorithms and data structures.</p>
                     <a href="https://github.com/evanwild/competitive-programming">
@@ -79,11 +77,6 @@
         </div>
 
     </div>
-
-    <script src="aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 </body>
 
 
