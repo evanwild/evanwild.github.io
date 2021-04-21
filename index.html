@@ -5,14 +5,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Evan Wild</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Inter:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="util.css">
 
-    <link rel="icon" type="image/png" href="favicon.png">
-    
+
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <style>
         body {
@@ -24,6 +26,11 @@
             justify-content: center;
             align-items: center;
         }
+
+        img {
+            /* This is needed so images aren't blurry */
+            transform: translateZ(0);
+        }
     </style>
 
 </head>
@@ -34,7 +41,7 @@
 
             <div class="title">
                 <h1>Evan Wild</h1>
-                <img src="profile.png" width="100">
+                <img width="100" height="100" src="profile.png">
             </div>
 
             <h5 class="tc mb1">Programmer and high schooler at Nepean HS</h5>
@@ -47,7 +54,7 @@
             <hr>
         </header>
 
-        <div data-aos="fade-up">
+        <div>
             <div class="row mt3">
                 <div class="5 col card tc b-accent">
                     <h4 class="mb1 normal accent">Contact</h4>
@@ -71,5 +78,6 @@
 
     </div>
 </body>
+
 
 </html>
